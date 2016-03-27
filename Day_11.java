@@ -14,7 +14,7 @@ public class Solution {
                 arr[i][j] = in.nextInt();
             }
         }
-        int max = -10086;
+        int max = Integer.MIN_VALUE;
         for (int row = 0; row < 4; row++) {
             for (int col = 0; col < 4; col++) {
                 int sum = 0;
